@@ -41,6 +41,4 @@ php bin/hyperf.php start
 
 ## 写在最后
 
-此repo示例修改自[swoft-ddz](https://github.com/jxy918/swoft-ddz)，已和原作者联系。
-
-如有定制开发需求可以联系QQ。<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=85464277&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:85464277:51" alt="点此即可联系我" title="点此即可联系我"/></a>
+此repo示例修改自[swoft-ddz](https://github.com/jxy918/swoft-ddz)，需要可以联系作者
