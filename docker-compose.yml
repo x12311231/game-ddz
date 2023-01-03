@@ -1,0 +1,16 @@
+version: "3.1"
+
+services:
+  php:
+    #image: hyperf/hyperf:7.4-alpine-v3.15-swoole-v4.8
+    build: ./docker/hyperf
+    volumes:
+      - "./:/var/www"
+    working_dir: "/var/www"
+    ports:
+      - "9501:9501"
+      - "9502:9502"
+    command: ["php", "bin/hyperf.php", "start"]
+
+  redis:
+    image: redis
